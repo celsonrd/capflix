@@ -11,7 +11,7 @@ public class SwaggerController {
 	
 	@GetMapping
 	public ModelAndView doc() {
-		return new ModelAndView("redirect:/swagger-ui/index.html");
+		return new ModelAndView("redirect:/swagger-ui.html");
 	}
 
 }
